@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #202124;
+  color: #fff;
+}
+
+#contact {
+  background-color: #202124;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#record-number {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #fff; /* 将备案号字体颜色修改为白色 */
+}
+
+#record-number a {
+  color: #fff; /* 给链接设置字体颜色为白色 */
+  text-decoration: none; /* 移除链接的下划线 */
+}
